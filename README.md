@@ -1,7 +1,7 @@
-# GitHub Action - Action Name Here
-This GitHub action ...
+# GitHub Action - Merge Issues
+This GitHub action takes a list of issues and adds them to the summary text of PR which is associated to the branch the PR was merged into.
 
-![Github JavaScript Actions CI/CD](https://github.com/dolittle/repository-here/workflows/Github%20JavaScript%20Actions%20CI/CD/badge.svg)
+![Github JavaScript Actions CI/CD](https://github.com/dolittle/merge-issues-action/workflows/Github%20JavaScript%20Actions%20CI/CD/badge.svg)
 
 ### Pre requisites
 Create a workflow `.yml` file in your `.github/workflows` directory. An [example workflow](#example-workflow) is available below.
@@ -9,10 +9,7 @@ Create a workflow `.yml` file in your `.github/workflows` directory. An [example
 For more information, reference the GitHub Help Documentation for [Creating a workflow file](https://help.github.com/en/articles/configuring-a-workflow#creating-a-workflow-file)
 
 ### Inputs
-- `some-input`: Description here
-
-### Outputs
-- `some-output`: Description here
+- `issues`: The issues.
 
 ### Example Workflow
 ```yaml
